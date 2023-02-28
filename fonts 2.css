@@ -1,0 +1,21 @@
+
+
+   @font-face {
+     font-family: 'montserratregular';
+     src: url('./Montserrat-Regular\ \(1\).ttf') format('truetype');    
+     font-weight: normal;
+     font-style: normal;
+   
+   }
+
+   @font-face {
+    font-family: 'montserratlight';
+    src: url('./Montserrat-Light.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+   
+  
+  

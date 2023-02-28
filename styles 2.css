@@ -1,0 +1,115 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(159deg, rgba(2,0,36,1) 0%, rgba(36,66,139,1) 72%, rgba(18,70,117,1) 100%);
+    color: rgb(235, 238, 243);
+    font-family: montserratregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: row;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+}
+a{
+    color: rgb(255, 250, 250);
+}
+a:hover{
+    color: #c5edff;
+    transition: 0.7ms all;
+}
+
+#jatemconta-btn{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#jatemconta-btn:hover{
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+  
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: montserratregular;
+}
+
+span{
+    color: #689cfd;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: montserratregular;
+}
+img{
+    position: relative;
+    width: 300px;
+    top: -15px;
+}
+p{
+    font-family: montserratlight;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color:#357fff ;
+    color:rgb(11, 6, 24);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+form [type="submit"]:hover{
+  cursor: pointer;
+  color: white;
+  transition: 0.7ms all;
+  
+  
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+
+}
+#image2{
+    position: relative;
+    left: 160px;
+    top: -50px;
+    width: 500px;
+}
+@media 
